@@ -1,8 +1,18 @@
 # Spring Data REST - Example Project
 
-This repository contains source code examples to support my course [Spring Data JPA and Hibernate Beginner to Guru](https://www.udemy.com/course/hibernate-and-spring-data-jpa-beginner-to-guru/?referralCode=251C4C865302C7B1BB8F)
+This project is base on course [Spring Data JPA and Hibernate Beginner to Guru](https://www.udemy.com/course/hibernate-and-spring-data-jpa-beginner-to-guru/?referralCode=251C4C865302C7B1BB8F)
+Published in my github https://github.com/diamond2016/sdjpa-spring-data-rest
 
-## All Spring Framework Guru Courses
+- The project uses Lombok, which requires annotation processing to generate methods/constructors at compile time.
+Many libraries (Lombok, MapStruct, QueryDSL, JPA metamodel generators, etc.) generate source code during compilation. If annotation processing is disabled, that generated code is missing and you get compilation or runtime errors.
+Some annotation processors rely on compiler internals (javac classes). 
+- The project uses java 21 so lombok and maven-compiler-plugin are upgraded with respect to original repository (forked)
+
+# Spring Data REST
+APIs are as decribed in this endpoint: [API doc](https://sfg-beer-works.github.io/brewery-api/#tag/Beer-Service/operation/listBeers)
+
+
+### All Spring Framework Guru Courses
 ### Spring Framework 5
 * [Spring Framework 5: Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO) - Get the most modern and comprehensive course available for the Spring Framework! Join over 8,200 over Guru's in an Slack community exclusive to this course! More than 3,700 students have given this 53 hour course a 5 star review!
 * [Spring Boot Microservices with Spring Cloud Beginner to Guru](https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/?referralCode=6142D427AE53031FEF38) - Master Microservice Architectures Using Spring Boot 2 and Cloud Based Deployments with Spring Cloud and Docker
