@@ -1,6 +1,6 @@
 # Spring Data REST - Example Project
 
-This project is base on course [Spring Data JPA and Hibernate Beginner to Guru](https://www.udemy.com/course/hibernate-and-spring-data-jpa-beginner-to-guru/?referralCode=251C4C865302C7B1BB8F)
+This project is basedon course [Spring Data JPA and Hibernate Beginner to Guru](https://www.udemy.com/course/hibernate-and-spring-data-jpa-beginner-to-guru/?referralCode=251C4C865302C7B1BB8F)
 Published in my github https://github.com/diamond2016/sdjpa-spring-data-rest
 
 - The project uses Lombok, which requires annotation processing to generate methods/constructors at compile time.
@@ -11,6 +11,8 @@ Some annotation processors rely on compiler internals (javac classes).
 # Spring Data REST
 APIs are as decribed in this endpoint: [API doc](https://sfg-beer-works.github.io/brewery-api/#tag/Beer-Service/operation/listBeers)
 
+# Cronology
+- 2024-06-30: Forked from original repository and adjusted forr Java 21 and lombok 1.18.32
 
 ### All Spring Framework Guru Courses
 ### Spring Framework 5
