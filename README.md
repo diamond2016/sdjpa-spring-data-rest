@@ -1,6 +1,6 @@
 ## Spring Data REST - Example Project
 
-This project is basedon course [Spring Data JPA and Hibernate Beginner to Guru](https://www.udemy.com/course/hibernate-and-spring-data-jpa-beginner-to-guru/?referralCode=251C4C865302C7B1BB8F)
+This project is based on course [Spring Data JPA and Hibernate Beginner to Guru](https://www.udemy.com/course/hibernate-and-spring-data-jpa-beginner-to-guru/?referralCode=251C4C865302C7B1BB8F)
 Published in my github https://github.com/diamond2016/sdjpa-spring-data-rest
 
 - The project uses Lombok, which requires annotation processing to generate methods/constructors at compile time.
@@ -45,3 +45,6 @@ APIs are as decribed in this endpoint: [API doc](https://sfg-beer-works.github.i
 * Like Spring Framework Guru on [Facebook](https://www.facebook.com/springframeworkguru/)
 * Follow Spring Framework Guru on [Twitter](https://twitter.com/spring_guru)
 * Connect with John Thompson on [LinkedIn](http://www.linkedin.com/in/springguru)
+
+## Story
+08.04.2026 passed to Spring Boot 3.20, see starter in pom.xml
