@@ -47,4 +47,4 @@ APIs are as decribed in this endpoint: [API doc](https://sfg-beer-works.github.i
 * Connect with John Thompson on [LinkedIn](http://www.linkedin.com/in/springguru)
 
 ## Story
-08.04.2026 passed to Spring Boot 3.20, see starter in pom.xml
+08.04.2026 passed to Spring Boot 3.20, see starter in pom.xml, modified base path as /api/v1/beer, seen that version is not passed as attribute but in header (https://docs.spring.io/spring-data/relational/reference/#conditional.etag). Study of profile a a rich information on apis (e.g. http://localhost:8080/api/v1/profile/beer)
