@@ -48,3 +48,5 @@ APIs are as decribed in this endpoint: [API doc](https://sfg-beer-works.github.i
 
 ## Story
 08.04.2026 passed to Spring Boot 3.20, see starter in pom.xml, modified base path as /api/v1/beer, seen that version is not passed as attribute but in header (https://docs.spring.io/spring-data/relational/reference/#conditional.etag). Study of profile a a rich information on apis (e.g. http://localhost:8080/api/v1/profile/beer)
+
+09.04.2026 test of put/update/delete and search methods, with curl, see examples.md, also see that pagination is supported by default, with links to first/last/next pages. See also that the response is paginated and the list of beers is contained in a property named "_embedded" (see examples.md for details).
